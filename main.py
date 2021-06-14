@@ -171,7 +171,7 @@ while running:
     for i in range(no_of_enemies):
 
         # Game Over
-        if enemyY[i] > 150:
+        if enemyY[i] > 550:
             for j in range(no_of_enemies):
                 enemyY[j] = -500
             gameOver()
